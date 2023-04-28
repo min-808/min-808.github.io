@@ -1,2 +1,2 @@
 # min-808.github.io
-My webserver
+Main page has to be called index.html
