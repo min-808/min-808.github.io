@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/banking/banking-square.png
+image: img/banking/banking-square2.png
 title: "Banking Application"
 date: 2024
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A simple terminal-based bank application that I developed for ICS 212."
 ---
 
-<img class="img-fluid" src="../img/banking/banking-header2.png">
+<img class="img-fluid" src="../img/banking/banking-header.png">
 
 This banking application was our final project for ICS 212. The first iterations of the application were coded in C, but we migrated the project to C++ for the final. The banking app is very straightforward. Upon launch, it welcomes the user, and asks them to choose an option. Some of the options include adding a record to the bank database, deleting a record from the database, printing all the records, and finding a specific record given an account number. After quitting the application, the records are saved for the next time the app is launched.
 
