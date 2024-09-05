@@ -16,11 +16,11 @@ summary: "A dynamic Discord bot game based on the game Honkai: Star Rail."
 
 <img class="img-fluid" src="../img/seele/seele-header4.png">
 
-Seele is a Discord bot I spent Winter 2023 working on. This project helped me learn about Javascript, as well as how to structure a database schema.
+Seele is a Discord bot I spent the Winter of 2023 working on. The original purpose for this project was to pull profile data from a video game that I routinely played using their API. However, since the commands were very barebones and simple, I wanted to expand the project to involve more interactivity with the user. This led to me creating a whole game within the Discord bot that simulated the video game that I took inspiration from. I was able to create a fully-fledged bot that has an economy system, various mini-games, and daily login rewards to keep the players interested. This project helped me learn a lot about Javascript, as well as how to structure a database schema. In addition, I had to learn various parts of Discord's API and how bot messages are built, since they're different from user messages.
 
-Seele is implemented using [Discord.JS](https://discord.js.org/), a Node.js module that interacts with the Discord API seamlessly. Within three weeks, I created a fully-fledged bot that has an economy system, various games, and daily login rewards.
+This project was a sole project intended for me to learn more about back-end development. I am responsible for all of the work, but I often looked to the Internet for guidance when I ran into issues. Some sources I utilized were the documentation and coding forums. Additionally, I watched multiple YouTube videos to kickstart the project since I had zero experience with Discord's bot system.
 
-In this project I gained experience with [MongoDB](http://mongodb.com) for database storage, Mongoose for creating a connection between MongoDB and the Node.js runtime environment, and Javascript for creating the interactions.
+The main thing I learned from this project was Javascript. However, since the bot needed to interact with Discord's API, I had to pick up [Discord.JS](https://discord.js.org/) as well, a module that offers many helpful tools for bot creation. For the database, I used [MongoDB](http://mongodb.com) and learned about non-relational databases. The language used to interact with MongoDB is very different from languages like SQL. Since SQL databases store data in tables containing rows and columns, NoSQL databases like MongoDB store data in documents. These documents can have flexible schemas unlike SQL tables which must have a strict, predefined schema.
 
 Here is some example code to illustrate an example of writing to the database:
 
@@ -66,4 +66,4 @@ Both **setUptime()** and **replenishPower()** are events that are called periodi
 
 
 
-Source: <a href="https://github.com/min-808/Seele/">Seele</a>
+Source: <a href="https://github.com/min-808/Seele/">Seele Bot</a>

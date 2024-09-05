@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/signin/signin-square.jpg
+image: img/signin/signin-square.png
 title: "Sign-in Webapp"
 date: 2024
 published: true
