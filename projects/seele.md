@@ -59,11 +59,11 @@ async function replenishPower() {
 ```
 
 Here, a series of actions take place utilizing the **.updateMany** function. First, the expression checks if one element is less than another.
-This is done with the **$expr** and **$lt** operators. If this is true, then the selected element is increased by 1.
+This is done with the **$expr** and **$lt** operators. If this is true, then all entries in the document that match this query have this element increased by 1.
 By using **$expr**, we were able to create a conditional to execute the following command *only if* the conditional is true.
 
 Both **setUptime()** and **replenishPower()** are events that are called periodically using [Cron](https://www.npmjs.com/package/cron), a popular node package.
 
 
 
-Source: <a href="https://github.com/min-808/Seele/">Seele Bot</a>
+Source: <a href="https://github.com/min-808/Seele/">Seele | Github</a>
