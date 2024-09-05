@@ -24,7 +24,22 @@ In this project I gained experience with [MongoDB](http://mongodb.com) for datab
 
 Here is some example code to illustrate an example of writing to the database:
 
-{% gist 82892cec7a5047c084ad2a5acc443812 %}
+```javascript
+async function setUptime() {
+    var currentTime = Date.now()
+
+    var client = new MongoClient(uri)
+
+    var database = client.db("economy")
+    var ids = database.collection("uptime")
+
+    await ids.updateOne({}, {
+        $set: {
+            time: currentTime
+        }
+    })
+}
+```
 
 In this code snippet, the function **setUptime()** is an asynchronous function that is continuously called to set the uptime of the bot.
 The function first stores the current time in a variable called currentTime. Then, it connects to the database named "economy" and finds the collection named "uptime".
@@ -32,7 +47,16 @@ Once found, the .updateOne function is called in order to set the element in the
 
 The previous example utilized just one Mongo function, .updateOne. The following example combines various functions together:
 
-{% gist a70b9d8faf2b9ff78ba34a17b8cc3ffc %}
+```javascript
+async function replenishPower() {
+    ...
+
+    await ids.updateMany(
+        { $expr: { $lt: ["$trailblaze_power", "$max_trailblaze_power"] } }, 
+        { $inc: { trailblaze_power: 1 } }
+    )
+}
+```
 
 Here, a series of actions take place utilizing the **.updateMany** function. First, the expression checks if one element is less than another.
 This is done with the **$expr** and **$lt** operators. If this is true, then the selected element is increased by 1.
