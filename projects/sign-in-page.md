@@ -13,7 +13,7 @@ labels:
 summary: "A prototype for a web sign in and registration system."
 ---
 
-<img class="img-fluid" src="../img/signin/signin-header.png">
+<img class="img-fluid" src="../img/signin/signin-header2.png">
 
 This sign-in webapp is a website that I am currently in the process of coding. It's a very simple website with two pages. The first is a typical sign-in form, while the second is a registration form. The intended purpose for this website is to act as a prototype for future projects that utilize login systems. Right now, there is both the front-end, which is what the user sees, and a back-end, which is what only I should be able to see. This login form should accept an email address and a password. Then, after accepting these two fields, it communicates with a back-end API that checks for the correctness of the two items. If the password is incorrect or the email hasn't been registered yet, an error is thrown to the front-end page telling the user to try again. This project combines multiple moving pieces together: a database that holds encrypted and salted personal information, a back-end to communicate with the database, and a front-end to communicate with the user and the back-end. Overall, this project helped me learn how to implement a very basic full-stack application.
 
