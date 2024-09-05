@@ -14,7 +14,7 @@ labels:
 summary: "A dynamic Discord bot game based on the game Honkai: Star Rail."
 ---
 
-<img class="img-fluid" src="../img/seele/seele-header3.png">
+<img class="img-fluid" src="../img/seele/seele-header4.png">
 
 Seele is a Discord bot I spent Winter 2023 working on. This project helped me learn about Javascript, as well as how to structure a database schema.
 
