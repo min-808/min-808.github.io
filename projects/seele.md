@@ -23,6 +23,6 @@ In this project I gained experience with [MongoDB](http://mongodb.com) for datab
 
 Here is some example code to illustrate Simple Schema use:
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
+{% gist 82892cec7a5047c084ad2a5acc443812 %}
+
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
