@@ -6,7 +6,8 @@ title: "Seele Discord Bot"
 date: 2023
 published: true
 labels:
-  - Javascript/Discord.JS
+  - Javascript
+  - Discord.JS
   - MongoDB
   - Github
   - Mongoose
