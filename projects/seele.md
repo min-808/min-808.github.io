@@ -13,7 +13,7 @@ labels:
 summary: "A dynamic Discord bot game based on the game Honkai: Star Rail."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/vacay/seele-header.png">
 
 Seele is a Discord bot I spent Winter 2023 working on. This project helped me learn about Javascript, as well as how to structure a database schema.
 
@@ -34,7 +34,7 @@ The previous example utilized just one Mongo function, .updateOne. The following
 {% gist a70b9d8faf2b9ff78ba34a17b8cc3ffc %}
 
 Here, a series of actions take place utilizing the **.updateMany** function. First, the expression checks if one element is less than another.
-This is done with the **$expr** and **lt** operators. If this is true, then the selected element is increased by 1.
+This is done with the **$expr** and **$lt** operators. If this is true, then the selected element is increased by 1.
 By using **$expr**, we were able to create a conditional to execute the following command *only if* the conditional is true.
 
 Both **setUptime()** and **replenishPower()** are events that are called periodically using [Cron](https://www.npmjs.com/package/cron), a popular node package.
