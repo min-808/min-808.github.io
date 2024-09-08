@@ -7,14 +7,22 @@ date: 2024-09-05
 published: true
 labels:
   - Javascript
-  - Typescript
+  - Java
+  - C
+  - C++
 ---
 
 <img class="img-fluid" src="../img/typescript/typescript-header.png">
 
-# Exploring Typescript
+# My Beginnings
 
-So far, Typescript has been an enjoyable language to learn. It combines the relative freedom that Javascript offers while adding in the strict typing of a language like C. It’s also shown quite a contrast to the other languages I learned throughout college, like Java and C/C++. In those languages, a large emphasis was placed on being verbose with your variables, having a proper “main” function, or requiring intricate syntax. Typescript throws most of those things out and rather relies on inferences to make the life of the programmer easier. However, it doesn’t make everything so simple when it comes to types. In essence, Typescript emphasizes the importance of labeling. Everything from what kind of value a variable holds, which elements can be in an array, and the return value of your functions, must be clearly defined. 
+In my very first years of high school, I came across software engineering from my very first coding class. It was a really simple class, where we built websites, learned about the basics of CSS and JS, and had to create an interactive story on a website as our final project. I was hooked instantly. I loved how there were no boundaries and that with coding, the possibilities are just endless. I would spend hours awake past midnight perfecting my projects and researching ways to improve the clarity and structure of my code. This prompted me to take up a Computer Science major, and I've been enjoying the classes ever since.
+
+# Building my Interests
+
+Now that I have some coding experience as a sophomore in college, I've started to pick up a few particular interests in software engineering.
+
+One of my projects, a Discord bot, really opened up my eyes to the side of database management. It's weird how something as simple as a database could seem interesting, but to me, I just find it fascinating how data storage and retrieval works. Using APIs to request data and parsing that data to a readable format is something that is really cool to me. It's 
 
 ```javascript
 function add(first, second) {
