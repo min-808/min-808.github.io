@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "My Software Engineering Interests"
 # All dates must be YYYY-MM-DD format!
-date: 2024-09-05
+date: 2024-09-08
 published: true
 labels:
   - Javascript
@@ -12,7 +12,7 @@ labels:
   - C++
 ---
 
-<img class="img-fluid" src="../img/typescript/typescript-header.png">
+<img class="img-fluid" src="../img/interests/interests-header.png">
 
 # My Beginnings
 
@@ -22,25 +22,8 @@ In my very first years of high school, I came across software engineering from m
 
 Now that I have some coding experience as a sophomore in college, I've started to pick up a few particular interests in software engineering.
 
-One of my projects, a Discord bot, really opened up my eyes to the side of database management. It's weird how something as simple as a database could seem interesting, but to me, I just find it fascinating how data storage and retrieval works. Using APIs to request data and parsing that data to a readable format is something that is really cool to me. It's 
+One of my projects, a Discord bot, really opened up my eyes to the side of database management. It's weird how something as simple as a database could seem interesting, but to me, I just find it fascinating how data storage and retrieval works. Using APIs to request data and parsing that data to a readable format is something that is really cool to me. For example, in the game that I played, there these profiles that can be customized. In these profiles, there's your username, your birthday, your unique ID, the characters you want to show off, and various other stats like your level and achievement count. By nature, these stats are really only visible in game and can't be seen elsewhere. However, there are some unofficial APIs that are able to pull this information from the game to be displayed on websites and stat trackers. The flexibility and level of access that comes with these APIs are really interesting, and I like creating my own little web apps or bots that are able to display this information even if you're not playing the game.
 
-```javascript
-function add(first, second) {
-  return first + second;
-}
+# The Future
 
-function add(first: number, second: number): number {
-  return first + second;
-}
-```
-<sub>An example of the strict typing in Typescript</sub>
-
-In my opinion, this is what makes it better than Javascript, and I feel like it’s a very good language for people who want to learn programming. I would turn newcomers away from languages like C since they’re so complex. You must keep track of every little thing that goes on in your program, from processes like memory allocation to garbage collection. It’s easy to lose yourself in the intricacies of a fairly low-level language. This is why I feel like JS/TS is a great starting point since you don’t have to worry so much about the inner workings of the language. All the memory allocation is done for you behind the scenes and the standard library of methods is very intuitive. Additionally, I feel like after you’ve understood how to program in Typescript, it’s much easier to learn the fundamentals of programming through lower-level languages.
-
-# Coding Under Pressure 
-
-The professor for my ICS314 class utilizes a special learning tool called WODs (workout of the day). In these WODs, we’re required to code a solution to a problem while working under a time limit. Personally, I enjoy these challenges a lot because they simulate what a real technical interview would be like. You have to think of a solution, write the code, and debug it, all while having a ticking clock above your head. Although stressful, once the perfect solution comes to mind, it’s great seeing the code form into place and the results print out exactly what you expected. The skills I get from these WODs over the course of the semester will hopefully push my brain to work better under pressure.
-
-# Closing Thoughts
-
-All in all, I think I’ll come to enjoy ICS314. Typescript has been a blast to learn, and I’m excited about the final project where I’ll be able to see all my efforts come to fruition. I’m hopeful that I’ll learn a lot, and that I’ll be confident when it comes to my future in software engineering.
+I know that I can't rely on the skills I have now to get a job, so I'll need to branch out and learn more. One of these skills I'd like to sharpen is back-end development. I want to be able to connect a front-end website with a back-end server which communicates with a database. This is essentially a full-stack application that I want to create. In the future, I would like to be able to be comfortable with these technologies and the various languages and frameworks that come with it.
