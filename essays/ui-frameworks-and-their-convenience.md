@@ -11,7 +11,7 @@ labels:
   - Bootstrap 5
 ---
 
-<img class="img-fluid" src="../img/coding/coding-header.png">
+<img class="img-fluid" src="../img/ui-frameworks/bootstrap-header.png">
 
 # What is a UI framework?
 
