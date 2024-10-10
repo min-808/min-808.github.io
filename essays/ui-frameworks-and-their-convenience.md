@@ -43,14 +43,14 @@ And to add elements within the navbar, you can enclose nav items items inside of
 
 ```
 <div class="container-fluid">
-<ul class="navbar-nav">
-<li class="nav-item">
-</li>
-<li class="nav-item">
-</li>
-<li class="nav-item">
-</li>
-</ul>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+    </li>
+    <li class="nav-item">
+    </li>
+    <li class="nav-item">
+    </li>
+  </ul>
 </div>
 ```
 
