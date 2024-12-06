@@ -11,7 +11,7 @@ labels:
   - React
 ---
 
-<img class="img-fluid" src="../img/interests/interests-header.png">
+<img class="img-fluid" src="../img/design/design-header.png">
 
 # Constructing the groundwork of a successful application
 
