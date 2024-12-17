@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Beyond the Syntax: How AI Transformed My Learning in ICS 314"
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-14
+date: 2024-12-17
 published: true
 labels:
   - AI
