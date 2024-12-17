@@ -18,11 +18,13 @@ At the moment, the role of AI in education is huge. AI has been used to automate
 
 # Personal Experience with AI
 
-1. Experience WODs e.g. E18
-  In Experience WODs, I remember asking AI how certain methods work. For example, in E18: Functional Programming, since it was my first introduction to the world of functional programming, I asked AI to explain to me the basic array manipulation methods (.map, .filter, etc.). It gave me insight in the methods, and when to use them. However, I found that it used "if" statements a lot in the functional methods, which went against the requirements.
+- Experience WODs e.g. E18
 
-2. In-class Practice WODs
-  For in-class practice WODs, I didn't use AI. The reason why, was because I knew that these practice WODs weren't graded, so if I didn't finish, then it was no big deal. I thought it was more important for me to come to a solution on my own rather than depend on the AI to fix my problems for me.
+In Experience WODs, I remember asking AI how certain methods work. For example, in E18: Functional Programming, since it was my first introduction to the world of functional programming, I asked AI to explain to me the basic array manipulation methods (.map, .filter, etc.). It gave me insight in the methods, and when to use them. However, I found that it used "if" statements a lot in the functional methods, which went against the requirements.
+
+- In-class Practice WODs
+
+For in-class practice WODs, I didn't use AI. The reason why, was because I knew that these practice WODs weren't graded, so if I didn't finish, then it was no big deal. I thought it was more important for me to come to a solution on my own rather than depend on the AI to fix my problems for me.
 
 3. In-class WODs
 
