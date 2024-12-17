@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "How I Utilized AI in ICS314"
+title: "Beyond the Syntax: How AI Transformed My Learning in ICS 314"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-14
 published: true
@@ -26,52 +26,51 @@ In Experience WODs, I remember asking AI how certain methods work. For example, 
 
 For in-class practice WODs, I didn't use AI. The reason why, was because I knew that these practice WODs weren't graded, so if I didn't finish, then it was no big deal. I thought it was more important for me to come to a solution on my own rather than depend on the AI to fix my problems for me.
 
-3. In-class WODs
+- In-class WODs
 
 For in-class WODs, I usually didn't use AI tools. I tried to solve the WOD by myself using old resources and previous example websites. However, when I did use AI, it was typically in reference to fixing a stylistic issue. For example, I would ask it how to left-center the text in the Aloha Beer React WOD.
 
-4. Essays
+- Essays
 
 For essays, I haven't used AI. This is mainly in part due to me wanting to improve my writing skills as a software engineer. I know that AI can be a helpful tool for writing (or even writing the whole essay), but I want to make sure that my own personal voice is heard, rather than a machine-generated one.
 
-5. Final project
+- Final project
 
 In the final project, I used AI when I ran into a few problems. An example of a problem would be related to the Yup resolver. Since I never used Yup validation before, I ran into a lot of problems when trying to validate the input fields. This made me have to look into the Yup documentation and ask AI the best solution to the problems I encountered (like submitting an array of Strings, or using conditionals since some validation formats can be either null, undefined, or have a value).
 
-6. Learning a concept / tutorial
+- Learning a concept / tutorial
 
 I used AI whenever I learned a new concept. This is because I knew that AI was able to teach concepts in a simplified way, rather than throwing all the information available to me. Although I used a couple times in ICS314, I found myself using it a lot in ICS311, for questions surrounding graphing, trees, computer graphics, FFT, etc.
 
-7. Answering a question in class or in Discord
+- Answering a question in class or in Discord
 
 When answering a question in class, I did not use AI. This is because it sort of felt like cheating. If I used AI to answer the professor's question, then I feel like I didn't gain anything out of it. The reasons why the professor asks questions in class is to make sure we understand the material, not test our ability to ask a chatbot then spit out the answer.
 
-8. Asking or answering a smart-question
+- Asking or answering a smart-question
 
 I haven't answered any smart-questions in the Discord yet. However, if I did, then I would first try to answer the question myself, then if I couldn't find a suitable answer, I would ask AI.
 
-9. Coding example e.g. “give an example of using Underscore .pluck”
+- Coding example e.g. “give an example of using Underscore .pluck”
 
 I have used AI for coding examples a lot. I remember asking it once to give me an example of sorting an array of objects by property. The AI gave me a reasonable example of using the .sort() method, giving me insight in how to apply it to my own problems.
 
-10. Explaining code
+- Explaining code
 
 I used AI to explain code to me many times. For example, I would paste in a block of code from my final project, and ask it to explain to me how it worked. Since a lot of the code came from the nextjs-application-template, it was all pre-written with no comments. This made it difficult to know what each function did, but after getting AI to explain it to me, I think I understood it better.
 
-11. Writing code
+- Writing code
 
 I haven't used AI to explicitly write code for me. This is because I feel that if I ask AI to write a portion of code for me, then I copy and paste it into my assignment, I feel like I didn't learn anything. I want to be able to have the satisfaction of applying what I learned to my assignments, not just asking ChatGPT to answer it for me, and copy and paste it and pass it off as my own work.
 
-12. Documenting code
+- Documenting code
 
 Most documentation of the code I written was by me. Since I understand the code the best and the use cases for the code, I think I would have a better idea of how to write comments or documentation. Since AI wouldn't get the full picture, I feel like it would miss out on a lot of details.
 
-13. Quality assurance e.g. “What’s wrong with this code..." or “Fix the ESLint errors in...”
+- Quality assurance e.g. “What’s wrong with this code..." or “Fix the ESLint errors in...”
 
 I remember pasting in a few blocks of code and asking ChatGPT what was wrong with it. Typically, ESLint errors are simple to fix, so I wouldn't need to rely on AI for those. However, for code with logical errors or syntactic errors, GPT would be helpful in detecting those. For example, although this isn't necessarily code, I asked ChatGPT to troubleshoot why Prisma would throw an error stating "failed to apply migrations" whenever I ran prisma migrate dev. ChatGPT explained that it happens when the local database schema doesn't match the migration history, so it suggested to run "npx prisma migrate reset", then "npx prisma migrate dev".
 
-14. Other uses in ICS 314 not listed
-
+- Other uses in ICS 314 not listed
 
 I believe the previous 13 points covered all my use cases of AI in ICS314.
 
